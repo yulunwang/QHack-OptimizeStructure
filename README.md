@@ -14,3 +14,6 @@ Applications in Biotechnology: By calculating Molecular Geometries to such a hig
 
 Shee, Yu, et al. "A Qubit-Efficient Encoding Scheme for Quantum Simulations of Electronic Structure." arXiv preprint arXiv:2110.04112 (2021).
 https://pennylane.ai/qml/demos/tutorial_mol_geo_opt.html 
+
+Alan Aspuru Guzik et al "Quantum algorithm for molecular properties and geometry optimization" (2009)
+https://www.kassal.group/assets/papers/kassal005.pdf
