@@ -21,3 +21,7 @@ https://pennylane.ai/qml/demos/tutorial_mol_geo_opt.html
 
 Alan Aspuru Guzik et al "Quantum algorithm for molecular properties and geometry optimization" (2009)
 https://www.kassal.group/assets/papers/kassal005.pdf
+
+Alberto Peruzzo, Jarrod McClean et al., “A variational eigenvalue solver on a photonic quantum processor”. Nature Communications 5, 4213 (2014).
+Jacob T. Seeley, Martin J. Richard, Peter J. Love. “The Bravyi-Kitaev transformation for quantum computation of electronic structure”. Journal of Chemical Physics 137, 224109 (2012).
+https://pennylane.ai/qml/demos/tutorial_vqe.html
