@@ -10,7 +10,7 @@ The answer is yes! What if we could reduce the number of qubits required for the
 
 
 
-Applications in Biotechnology: By calculating Molecular Geometries to such a high degree of accuracy we are able to create better drugs. The molecular geometry from the Voronoi uses spherical representations, again more accurate. Application examples include the following: the most efficient/precise computation of the blending surface over an input molecule, the computation of the van der Waals volume (and area); an efficient docking simulation; the recognition of internal voids and their volume computation; the recognition of molecular tunnels, the comparison (or superposition) of the boundary structures of two molecules, shape reasoning such as measuring the sphericity of molecules, the efficient computation of the optimal side-chain placement for proteins, etc.
+Applications in Biotechnology: By calculating Molecular Geometries to such a high degree of accuracy we are able to create better drugs. The molecular geometry uses spherical representations, again more accurate. Application examples include the following: the most efficient/precise computation of the blending surface over an input molecule, the computation of the van der Waals volume (and area); an efficient docking simulation; the recognition of internal voids and their volume computation; the recognition of molecular tunnels, the comparison (or superposition) of the boundary structures of two molecules, shape reasoning such as measuring the sphericity of molecules, the efficient computation of the optimal side-chain placement for proteins, etc.
 
 Improvements for future: We would like to add more to this after the Hackathon by implementing more Geometries of other molecules.
 
