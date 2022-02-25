@@ -14,7 +14,11 @@ Applications in Biotechnology: By calculating Molecular Geometries to such a hig
 
 Improvements for future: We would like to add more to this after the Hackathon by implementing more Geometries of other molecules.
 
-![vqe](https://user-images.githubusercontent.com/33207831/155512375-9d3f18c8-b9ba-45ac-aba6-2073a1b62caa.png)
+<img src="https://user-images.githubusercontent.com/33207831/155512375-9d3f18c8-b9ba-45ac-aba6-2073a1b62caa.png" width="450">
+
+### Presentation
+
+[Optimize H3+ structure using QEE - Presentation](https://docs.google.com/presentation/d/1lKY0P5rQSDCLQkPKvkeHMzE5Hakn4-2rP0qmInWVTkc/edit?usp=sharing)
 
 ### Reference:
 
