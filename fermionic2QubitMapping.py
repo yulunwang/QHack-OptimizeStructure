@@ -167,8 +167,6 @@ def get_entry_operators(num_so, num_e, labeling_method, mode):
         if mode == 'uhf':
             configs = all_config(num_so, num_e)
             excitations = possible_excitations(num_so)
-            print(configs)
-            print(excitations)
         else :
             sub_configs = all_config(num_so // 2, num_e // 2)
             configs = []

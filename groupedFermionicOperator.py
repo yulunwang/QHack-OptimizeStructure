@@ -98,7 +98,9 @@ class groupedFermionicOperator:
         for h in it2:
             key = it2.multi_index
             self._add_an_h2(h, key)
-        
+        #print("group.op")
+        #print(self.grouped_op)
+        #print(len(self.grouped_op.keys()))
     def _add_an_h1(self, coef, pq):
         """
             Add a single one-electron term into the grouped operator.  
@@ -178,13 +180,17 @@ class groupedFermionicOperator:
         if cpu_count == 1:
             mapping = self.mapping
             qubitOp = WeightedPauliOperator(paulis=[])
-            print(mapping)
-            print("here1")
             for k, w in self.grouped_op.items():
                 if np.ndim(k) == 1: ## one-e-term
                     qubitOp += (w * mapping[k])
+                    #print(w)
+                   # print(k,mapping[k].paulis)
+                    #print()
                 elif np.ndim(k) == 2: ## 2-e-term
                     k1, k2 = k
+                    #print(w)
+                    #print(k,(mapping[k1] * mapping[k2]).paulis)
+                    #print()
                     qubitOp += (w * mapping[k1] * mapping[k2])
                 else:
                     raise ValueError('something wrong')
